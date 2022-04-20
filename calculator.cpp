@@ -10,7 +10,7 @@ int main()
 
         cout    << "╔═════════════════════════════════╗\n"
                 << "║                                 ║\n"
-                << "║     CALCULATOR VERSION 1.10     ║\n"
+                << "║     CALCULATOR VERSION 1.11     ║\n"
                 << "║                                 ║\n"
                 << "╚═════════════════════════════════╝\n";
 
@@ -27,6 +27,13 @@ int main()
                 cin >> num2;
                 cout << "Twoj wynik to: " << num1 + num2 << "\n";
                 break;
+            case 2:
+                cout << "\nWybrano opcje odejmowania.";
+                cout << "\nProsze podac pierwsza liczbe: ";
+                cin >> num1;
+                cout << "\nProsze podac druga liczbe: ";
+                cin >> num2;
+                cout << "Twoj wynik to: " << num1 - num2 << "\n";
         }
     }
 }
