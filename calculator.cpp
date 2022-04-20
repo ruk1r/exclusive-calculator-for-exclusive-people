@@ -10,7 +10,7 @@ int main()
 
         cout    << "╔═════════════════════════════════╗\n"
                 << "║                                 ║\n"
-                << "║     CALCULATOR VERSION 1.11     ║\n"
+                << "║     CALCULATOR VERSION 1.12     ║\n"
                 << "║                                 ║\n"
                 << "╚═════════════════════════════════╝\n";
 
@@ -34,6 +34,26 @@ int main()
                 cout << "\nProsze podac druga liczbe: ";
                 cin >> num2;
                 cout << "Twoj wynik to: " << num1 - num2 << "\n";
+                break;
+            case 3:
+                cout << "\nWybrano opcje mnozenia.";
+                cout << "\nProsze podac pierwsza liczbe: ";
+                cin >> num1;
+                cout << "\nProsze podac druga liczbe: ";
+                cin >> num2;
+                cout << "Twoj wynik to: " << num1 * num2 << "\n";
+                break;
+            case 4:
+                cout << "\nWybrano opcje dzielenia.";
+                cout << "\nProsze podac pierwsza liczbe: ";
+                cin >> num1;
+                cout << "\nProsze podac druga liczbe: ";
+                cin >> num2;
+                cout << "Twoj wynik to: " << num1 / num2 << "\n";
+                break;
+            default:
+                cout << "glupi kurwa jestes czy co, przeciez miales napisane, ze mozna wybrac od 1 do 4.. \n";
+                break;
         }
     }
 }
