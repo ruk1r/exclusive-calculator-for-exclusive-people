@@ -52,7 +52,7 @@ int main()
                 cout << "Twoj wynik to: " << num1 / num2 << "\n";
                 break;
             default:
-                cout << "glupi kurwa jestes czy co, przeciez miales napisane, ze mozna wybrac od 1 do 4.. \n";
+                cout << "Nie znaleziono opcji. \n";
                 break;
         }
     }
