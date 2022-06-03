@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int wybor, num1, num2;
+    double wybor, num1, num2;
 
     while(true)
     {
